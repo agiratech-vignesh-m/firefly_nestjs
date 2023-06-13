@@ -1,0 +1,52 @@
+Contract API	-	CouponContract
+
+Events		-	CouponCreated
+
+Topic		-	create
+
+A FireFly identifier to group events across multiple listeners.
+
+Name		-	createCoupon
+
+A custom name for your listener
+
+First Event	-	newest
+
+------------------------------
+
+Contract API	-	CouponContract
+
+Events		-	Redeemed
+
+Topic		-	redeem
+
+A FireFly identifier to group events across multiple listeners.
+
+Name		-	redeemCoupon
+
+A custom name for your listener
+
+First Event	-	newest
+
+------------------------------
+Contract API	-	credentialContract
+
+Events		-	DataCredentialized
+
+Topic		-	credentialized
+
+A FireFly identifier to group events across multiple listeners.
+
+Name		-	dataCredentialized
+
+A custom name for your listener
+
+First Event	-	newest
+
+-------------------------------
+Socket Integration
+
+Need to setup the Socket gateway from backend
+
+Create the emit function in socket.gateway.ts
+
